@@ -1,6 +1,6 @@
 ## [Build 8296](https://oscarci.mathematik.uni-kl.de/job/oscar/8296/)
 
-| Test         | Result | Start | Duration | Last Success |
+| Test Name    | Result | Start | Duration | Last Success |
 |:-------------|:-------|:------|:---------|:-------------|
 | CheckPackages | ❌ [FAILURE (status = 1)](https://oscarci.mathematik.uni-kl.de/job/oscar/8296/artifact/build-8296/CheckPackages.log) | 2020-03-23 11:43 | 0 seconds |  |
 | OscarForHomalg | ❌ [FAILURE (status = 1)](https://oscarci.mathematik.uni-kl.de/job/oscar/8296/artifact/build-8296/OscarForHomalg.log) | 2020-03-23 11:43 | 0 seconds |  |
