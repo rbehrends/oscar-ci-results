@@ -1,0 +1,142 @@
+build: 8373
+tests:
+- duration: 0
+  exitcode: 1
+  first_failure: false
+  last_success: false
+  last_success_url: null
+  log: logs/build-8373/CheckPackages.log
+  name: CheckPackages
+  start: 2020-03-25 19:24
+  status: failure (status = 1)
+  success: false
+- duration: 0
+  exitcode: 1
+  first_failure: false
+  last_success: false
+  last_success_url: null
+  log: logs/build-8373/OscarForHomalg.log
+  name: OscarForHomalg
+  start: 2020-03-25 19:24
+  status: failure (status = 1)
+  success: false
+- duration: 0
+  exitcode: 1
+  first_failure: false
+  last_success: false
+  last_success_url: null
+  log: logs/build-8373/GAP.log
+  name: GAP
+  start: 2020-03-25 19:24
+  status: failure (status = 1)
+  success: false
+- duration: 0
+  exitcode: 1
+  first_failure: false
+  last_success: false
+  last_success_url: null
+  log: logs/build-8373/GAP.jl.log
+  name: GAP.jl
+  start: 2020-03-25 19:24
+  status: failure (status = 1)
+  success: false
+- duration: 0
+  exitcode: 1
+  first_failure: false
+  last_success: false
+  last_success_url: null
+  log: logs/build-8373/Nemo.jl.log
+  name: Nemo.jl
+  start: 2020-03-25 19:24
+  status: failure (status = 1)
+  success: false
+- duration: 0
+  exitcode: 1
+  first_failure: false
+  last_success: false
+  last_success_url: null
+  log: logs/build-8373/Hecke.jl.log
+  name: Hecke.jl
+  start: 2020-03-25 19:24
+  status: failure (status = 1)
+  success: false
+- duration: 0
+  exitcode: 1
+  first_failure: false
+  last_success: false
+  last_success_url: null
+  log: logs/build-8373/AbstractAlgebra.jl.log
+  name: AbstractAlgebra.jl
+  start: 2020-03-25 19:24
+  status: failure (status = 1)
+  success: false
+- duration: 0
+  exitcode: 1
+  first_failure: false
+  last_success: false
+  last_success_url: null
+  log: logs/build-8373/Singular.jl.log
+  name: Singular.jl
+  start: 2020-03-25 19:24
+  status: failure (status = 1)
+  success: false
+- duration: 0
+  exitcode: 1
+  first_failure: false
+  last_success: false
+  last_success_url: null
+  log: logs/build-8373/HomalgProject.jl.log
+  name: HomalgProject.jl
+  start: 2020-03-25 19:24
+  status: failure (status = 1)
+  success: false
+- duration: 0
+  exitcode: 1
+  first_failure: false
+  last_success: false
+  last_success_url: null
+  log: logs/build-8373/Polymake.jl.log
+  name: Polymake.jl
+  start: 2020-03-25 19:24
+  status: failure (status = 1)
+  success: false
+- duration: 0
+  exitcode: 1
+  first_failure: false
+  last_success: false
+  last_success_url: null
+  log: logs/build-8373/JuliaInterface.log
+  name: JuliaInterface
+  start: 2020-03-25 19:24
+  status: failure (status = 1)
+  success: false
+- duration: 0
+  exitcode: 1
+  first_failure: false
+  last_success: false
+  last_success_url: null
+  log: logs/build-8373/JuliaExperimental.log
+  name: JuliaExperimental
+  start: 2020-03-25 19:24
+  status: failure (status = 1)
+  success: false
+- duration: 0
+  exitcode: 1
+  first_failure: false
+  last_success: false
+  last_success_url: null
+  log: logs/build-8373/Oscar.jl.log
+  name: Oscar.jl
+  start: 2020-03-25 19:24
+  status: failure (status = 1)
+  success: false
+- duration: 0
+  exitcode: 1
+  first_failure: false
+  last_success: false
+  last_success_url: null
+  log: logs/build-8373/NemoLinearAlgebraForCAP.log
+  name: NemoLinearAlgebraForCAP
+  start: 2020-03-25 19:24
+  status: failure (status = 1)
+  success: false
