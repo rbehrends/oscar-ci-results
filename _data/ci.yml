@@ -3,6 +3,28 @@ build_url: https://oscarci.mathematik.uni-kl.de/job/oscar/8373/
 job: oscar
 tests:
 - duration: 1
+  exitcode: 1
+  first_failure: 8373
+  first_failure_url: https://oscarci.mathematik.uni-kl.de/job/oscar/8373/
+  last_success: 8373
+  last_success_url: https://oscarci.mathematik.uni-kl.de/job/oscar/8373/
+  log: https://oscarci.mathematik.uni-kl.de/job/oscar/8373/artifact/logs/build-8373/CheckPackages.log
+  name: CheckPackages
+  start: 2020-04-03 15:39
+  status: failure
+  success: false
+- duration: 1
+  exitcode: 1
+  first_failure: 8373
+  first_failure_url: https://oscarci.mathematik.uni-kl.de/job/oscar/8373/
+  last_success: 8373
+  last_success_url: https://oscarci.mathematik.uni-kl.de/job/oscar/8373/
+  log: https://oscarci.mathematik.uni-kl.de/job/oscar/8373/artifact/logs/build-8373/GAP.jl.log
+  name: GAP.jl
+  start: 2020-04-03 15:39
+  status: failure
+  success: false
+- duration: 1
   exitcode: 127
   first_failure: 8373
   first_failure_url: https://oscarci.mathematik.uni-kl.de/job/oscar/8373/
@@ -21,28 +43,6 @@ tests:
   last_success_url: https://oscarci.mathematik.uni-kl.de/job/oscar/8373/
   log: https://oscarci.mathematik.uni-kl.de/job/oscar/8373/artifact/logs/build-8373/Nemo.jl.log
   name: Nemo.jl
-  start: 2020-04-03 15:39
-  status: failure
-  success: false
-- duration: 1
-  exitcode: 1
-  first_failure: 8373
-  first_failure_url: https://oscarci.mathematik.uni-kl.de/job/oscar/8373/
-  last_success: 8373
-  last_success_url: https://oscarci.mathematik.uni-kl.de/job/oscar/8373/
-  log: https://oscarci.mathematik.uni-kl.de/job/oscar/8373/artifact/logs/build-8373/GAP.jl.log
-  name: GAP.jl
-  start: 2020-04-03 15:39
-  status: failure
-  success: false
-- duration: 1
-  exitcode: 1
-  first_failure: 8373
-  first_failure_url: https://oscarci.mathematik.uni-kl.de/job/oscar/8373/
-  last_success: 8373
-  last_success_url: https://oscarci.mathematik.uni-kl.de/job/oscar/8373/
-  log: https://oscarci.mathematik.uni-kl.de/job/oscar/8373/artifact/logs/build-8373/CheckPackages.log
-  name: CheckPackages
   start: 2020-04-03 15:39
   status: failure
   success: false
@@ -74,8 +74,8 @@ tests:
   first_failure_url: https://oscarci.mathematik.uni-kl.de/job/oscar/8373/
   last_success: 8373
   last_success_url: https://oscarci.mathematik.uni-kl.de/job/oscar/8373/
-  log: https://oscarci.mathematik.uni-kl.de/job/oscar/8373/artifact/logs/build-8373/Singular.jl.log
-  name: Singular.jl
+  log: https://oscarci.mathematik.uni-kl.de/job/oscar/8373/artifact/logs/build-8373/HomalgProject.jl.log
+  name: HomalgProject.jl
   start: 2020-04-03 15:39
   status: failure
   success: false
@@ -85,8 +85,8 @@ tests:
   first_failure_url: https://oscarci.mathematik.uni-kl.de/job/oscar/8373/
   last_success: 8373
   last_success_url: https://oscarci.mathematik.uni-kl.de/job/oscar/8373/
-  log: https://oscarci.mathematik.uni-kl.de/job/oscar/8373/artifact/logs/build-8373/HomalgProject.jl.log
-  name: HomalgProject.jl
+  log: https://oscarci.mathematik.uni-kl.de/job/oscar/8373/artifact/logs/build-8373/Singular.jl.log
+  name: Singular.jl
   start: 2020-04-03 15:39
   status: failure
   success: false
