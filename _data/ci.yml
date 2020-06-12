@@ -1,6 +1,6 @@
 ---
-build: 0
-build_url: http://localhost:8088/job/oscar/
+build: 9809
+build_url: http://localhost:8088/job/oscar/9809/
 job: oscar
 organization: rbehrends
 repo: oscar-ci-results
@@ -8,336 +8,336 @@ repourl: https://github.com/rbehrends/oscar-ci-results
 tests:
 - name: CheckPackages
   id: checkpackages
-  log: http://localhost:8088/job/oscar/artifact/logs/build-0/CheckPackages.log
-  start: 2020-06-12 06:57
-  success: false
-  exitcode: 1
-  status: failure
-  duration: 1
+  log: http://localhost:8088/job/oscar/9809/artifact/logs/build-9809/CheckPackages.log
+  start: 2020-06-12 05:50
+  success: true
+  exitcode: 0
+  status: success
+  duration: 69
   last_success: false
   last_success_url: 
   first_failure: false
   first_failure_url: 
 - name: GAP
   id: gap
-  log: http://localhost:8088/job/oscar/artifact/logs/build-0/GAP.log
-  start: 2020-06-12 06:57
-  success: false
-  exitcode: 127
-  status: failure
-  duration: 0
+  log: http://localhost:8088/job/oscar/9809/artifact/logs/build-9809/GAP.log
+  start: 2020-06-12 05:50
+  success: true
+  exitcode: 0
+  status: success
+  duration: 163
   last_success: false
   last_success_url: 
   first_failure: false
   first_failure_url: 
 - name: GAP.jl
   id: gap-jl
-  log: http://localhost:8088/job/oscar/artifact/logs/build-0/GAP.jl.log
-  start: 2020-06-12 06:57
-  success: false
-  exitcode: 1
-  status: failure
-  duration: 2
+  log: http://localhost:8088/job/oscar/9809/artifact/logs/build-9809/GAP.jl.log
+  start: 2020-06-12 05:51
+  success: true
+  exitcode: 0
+  status: success
+  duration: 45
   last_success: false
   last_success_url: 
   first_failure: false
   first_failure_url: 
 - name: Nemo.jl
   id: nemo-jl
-  log: http://localhost:8088/job/oscar/artifact/logs/build-0/Nemo.jl.log
-  start: 2020-06-12 06:57
-  success: false
-  exitcode: 1
-  status: failure
-  duration: 2
+  log: http://localhost:8088/job/oscar/9809/artifact/logs/build-9809/Nemo.jl.log
+  start: 2020-06-12 05:50
+  success: true
+  exitcode: 0
+  status: success
+  duration: 326
   last_success: false
   last_success_url: 
   first_failure: false
   first_failure_url: 
 - name: Hecke.jl
   id: hecke-jl
-  log: http://localhost:8088/job/oscar/artifact/logs/build-0/Hecke.jl.log
-  start: 2020-06-12 06:57
-  success: false
-  exitcode: 1
-  status: failure
-  duration: 2
+  log: http://localhost:8088/job/oscar/9809/artifact/logs/build-9809/Hecke.jl.log
+  start: 2020-06-12 05:50
+  success: true
+  exitcode: 0
+  status: success
+  duration: 1401
   last_success: false
   last_success_url: 
   first_failure: false
   first_failure_url: 
 - name: AbstractAlgebra.jl
   id: abstractalgebra-jl
-  log: http://localhost:8088/job/oscar/artifact/logs/build-0/AbstractAlgebra.jl.log
-  start: 2020-06-12 06:57
-  success: false
-  exitcode: 1
-  status: failure
-  duration: 2
+  log: http://localhost:8088/job/oscar/9809/artifact/logs/build-9809/AbstractAlgebra.jl.log
+  start: 2020-06-12 05:50
+  success: true
+  exitcode: 0
+  status: success
+  duration: 341
   last_success: false
   last_success_url: 
   first_failure: false
   first_failure_url: 
 - name: Singular.jl
   id: singular-jl
-  log: http://localhost:8088/job/oscar/artifact/logs/build-0/Singular.jl.log
-  start: 2020-06-12 06:57
+  log: http://localhost:8088/job/oscar/9809/artifact/logs/build-9809/Singular.jl.log
+  start: 2020-06-12 05:50
   success: false
   exitcode: 1
   status: failure
-  duration: 2
-  last_success: false
-  last_success_url: 
-  first_failure: false
-  first_failure_url: 
+  duration: 38
+  last_success: 9709
+  last_success_url: http://localhost:8088/job/oscar/9709/
+  first_failure: 9710
+  first_failure_url: http://localhost:8088/job/oscar/9710/
 - name: HomalgProject.jl
   id: homalgproject-jl
-  log: http://localhost:8088/job/oscar/artifact/logs/build-0/HomalgProject.jl.log
-  start: 2020-06-12 06:57
+  log: http://localhost:8088/job/oscar/9809/artifact/logs/build-9809/HomalgProject.jl.log
+  start: 2020-06-12 05:51
   success: false
   exitcode: 1
   status: failure
-  duration: 2
-  last_success: false
-  last_success_url: 
-  first_failure: false
-  first_failure_url: 
+  duration: 22
+  last_success: 9808
+  last_success_url: http://localhost:8088/job/oscar/9808/
+  first_failure: 9809
+  first_failure_url: http://localhost:8088/job/oscar/9809/
 - name: Polymake.jl
   id: polymake-jl
-  log: http://localhost:8088/job/oscar/artifact/logs/build-0/Polymake.jl.log
-  start: 2020-06-12 06:57
-  success: false
-  exitcode: 1
-  status: failure
-  duration: 2
+  log: http://localhost:8088/job/oscar/9809/artifact/logs/build-9809/Polymake.jl.log
+  start: 2020-06-12 05:51
+  success: true
+  exitcode: 0
+  status: success
+  duration: 393
   last_success: false
   last_success_url: 
   first_failure: false
   first_failure_url: 
 - name: GroupAtlas.jl
   id: groupatlas-jl
-  log: http://localhost:8088/job/oscar/artifact/logs/build-0/GroupAtlas.jl.log
-  start: 2020-06-12 06:57
-  success: false
-  exitcode: 1
-  status: failure
-  duration: 2
+  log: http://localhost:8088/job/oscar/9809/artifact/logs/build-9809/GroupAtlas.jl.log
+  start: 2020-06-12 05:50
+  success: true
+  exitcode: 0
+  status: success
+  duration: 52
   last_success: false
   last_success_url: 
   first_failure: false
   first_failure_url: 
 - name: GroebnerBasis.jl
   id: groebnerbasis-jl
-  log: http://localhost:8088/job/oscar/artifact/logs/build-0/GroebnerBasis.jl.log
-  start: 2020-06-12 06:57
-  success: false
-  exitcode: 1
-  status: failure
-  duration: 2
+  log: http://localhost:8088/job/oscar/9809/artifact/logs/build-9809/GroebnerBasis.jl.log
+  start: 2020-06-12 05:50
+  success: true
+  exitcode: 0
+  status: success
+  duration: 24
   last_success: false
   last_success_url: 
   first_failure: false
   first_failure_url: 
 - name: JuliaInterface
   id: juliainterface
-  log: http://localhost:8088/job/oscar/artifact/logs/build-0/JuliaInterface.log
-  start: 2020-06-12 06:57
-  success: false
-  exitcode: -1
-  status: internal error
-  duration: 0
+  log: http://localhost:8088/job/oscar/9809/artifact/logs/build-9809/JuliaInterface.log
+  start: 2020-06-12 05:52
+  success: true
+  exitcode: 0
+  status: success
+  duration: 17
   last_success: false
   last_success_url: 
   first_failure: false
   first_failure_url: 
 - name: JuliaExperimental
   id: juliaexperimental
-  log: http://localhost:8088/job/oscar/artifact/logs/build-0/JuliaExperimental.log
-  start: 2020-06-12 06:57
-  success: false
-  exitcode: -1
-  status: internal error
-  duration: 0
+  log: http://localhost:8088/job/oscar/9809/artifact/logs/build-9809/JuliaExperimental.log
+  start: 2020-06-12 05:52
+  success: true
+  exitcode: 0
+  status: success
+  duration: 30
   last_success: false
   last_success_url: 
   first_failure: false
   first_failure_url: 
 - name: Oscar.jl
   id: oscar-jl
-  log: http://localhost:8088/job/oscar/artifact/logs/build-0/Oscar.jl.log
-  start: 2020-06-12 06:57
+  log: http://localhost:8088/job/oscar/9809/artifact/logs/build-9809/Oscar.jl.log
+  start: 2020-06-12 05:50
   success: false
   exitcode: 1
   status: failure
-  duration: 2
-  last_success: false
-  last_success_url: 
-  first_failure: false
-  first_failure_url: 
+  duration: 167
+  last_success: 9435
+  last_success_url: http://localhost:8088/job/oscar/9435/
+  first_failure: 9436
+  first_failure_url: http://localhost:8088/job/oscar/9436/
 - name: NemoLinearAlgebraForCAP
   id: nemolinearalgebraforcap
-  log: http://localhost:8088/job/oscar/artifact/logs/build-0/NemoLinearAlgebraForCAP.log
-  start: 2020-06-12 06:57
-  success: false
-  exitcode: 2
-  status: failure
-  duration: 1
+  log: http://localhost:8088/job/oscar/9809/artifact/logs/build-9809/NemoLinearAlgebraForCAP.log
+  start: 2020-06-12 05:50
+  success: true
+  exitcode: 0
+  status: success
+  duration: 42
   last_success: false
   last_success_url: 
   first_failure: false
   first_failure_url: 
 - name: AbstractAlgebra.ipynb
   id: abstractalgebra-ipynb
-  log: http://localhost:8088/job/oscar/artifact/logs/build-0/AbstractAlgebra.ipynb.log
-  start: 2020-06-12 06:57
-  success: false
-  exitcode: 1
-  status: failure
-  duration: 1
+  log: http://localhost:8088/job/oscar/9809/artifact/logs/build-9809/AbstractAlgebra.ipynb.log
+  start: 2020-06-12 05:51
+  success: true
+  exitcode: 0
+  status: success
+  duration: 39
   last_success: false
   last_success_url: 
   first_failure: false
   first_failure_url: 
 - name: CohP1.ipynb
   id: cohp1-ipynb
-  log: http://localhost:8088/job/oscar/artifact/logs/build-0/CohP1.ipynb.log
-  start: 2020-06-12 06:57
-  success: false
-  exitcode: 1
-  status: failure
-  duration: 1
+  log: http://localhost:8088/job/oscar/9809/artifact/logs/build-9809/CohP1.ipynb.log
+  start: 2020-06-12 05:52
+  success: true
+  exitcode: 0
+  status: success
+  duration: 86
   last_success: false
   last_success_url: 
   first_failure: false
   first_failure_url: 
 - name: TiltingEquivalence.ipynb
   id: tiltingequivalence-ipynb
-  log: http://localhost:8088/job/oscar/artifact/logs/build-0/TiltingEquivalence.ipynb.log
-  start: 2020-06-12 06:57
-  success: false
-  exitcode: 1
-  status: failure
-  duration: 1
+  log: http://localhost:8088/job/oscar/9809/artifact/logs/build-9809/TiltingEquivalence.ipynb.log
+  start: 2020-06-12 05:53
+  success: true
+  exitcode: 0
+  status: success
+  duration: 164
   last_success: false
   last_success_url: 
   first_failure: false
   first_failure_url: 
 - name: Hecke.ipynb
   id: hecke-ipynb
-  log: http://localhost:8088/job/oscar/artifact/logs/build-0/Hecke.ipynb.log
-  start: 2020-06-12 06:57
-  success: false
-  exitcode: 1
-  status: failure
-  duration: 1
+  log: http://localhost:8088/job/oscar/9809/artifact/logs/build-9809/Hecke.ipynb.log
+  start: 2020-06-12 05:56
+  success: true
+  exitcode: 0
+  status: success
+  duration: 78
   last_success: false
   last_success_url: 
   first_failure: false
   first_failure_url: 
 - name: Singular.ipynb
   id: singular-ipynb
-  log: http://localhost:8088/job/oscar/artifact/logs/build-0/Singular.ipynb.log
-  start: 2020-06-12 06:57
-  success: false
-  exitcode: 1
-  status: failure
-  duration: 1
+  log: http://localhost:8088/job/oscar/9809/artifact/logs/build-9809/Singular.ipynb.log
+  start: 2020-06-12 05:57
+  success: true
+  exitcode: 0
+  status: success
+  duration: 36
   last_success: false
   last_success_url: 
   first_failure: false
   first_failure_url: 
 - name: g-vectors.ipynb
   id: g-vectors-ipynb
-  log: http://localhost:8088/job/oscar/artifact/logs/build-0/g-vectors.ipynb.log
-  start: 2020-06-12 06:57
-  success: false
-  exitcode: 1
-  status: failure
-  duration: 1
+  log: http://localhost:8088/job/oscar/9809/artifact/logs/build-9809/g-vectors.ipynb.log
+  start: 2020-06-12 05:58
+  success: true
+  exitcode: 0
+  status: success
+  duration: 134
   last_success: false
   last_success_url: 
   first_failure: false
   first_failure_url: 
 - name: K3-16.ipynb
   id: k3-16-ipynb
-  log: http://localhost:8088/job/oscar/artifact/logs/build-0/K3-16.ipynb.log
-  start: 2020-06-12 06:57
-  success: false
-  exitcode: 1
-  status: failure
-  duration: 1
+  log: http://localhost:8088/job/oscar/9809/artifact/logs/build-9809/K3-16.ipynb.log
+  start: 2020-06-12 06:00
+  success: true
+  exitcode: 0
+  status: success
+  duration: 62
   last_success: false
   last_success_url: 
   first_failure: false
   first_failure_url: 
 - name: c-automorphisms.ipynb
   id: c-automorphisms-ipynb
-  log: http://localhost:8088/job/oscar/artifact/logs/build-0/c-automorphisms.ipynb.log
-  start: 2020-06-12 06:57
-  success: false
-  exitcode: 1
-  status: failure
-  duration: 1
+  log: http://localhost:8088/job/oscar/9809/artifact/logs/build-9809/c-automorphisms.ipynb.log
+  start: 2020-06-12 06:01
+  success: true
+  exitcode: 0
+  status: success
+  duration: 95
   last_success: false
   last_success_url: 
   first_failure: false
   first_failure_url: 
 - name: wronski-poly.ipynb
   id: wronski-poly-ipynb
-  log: http://localhost:8088/job/oscar/artifact/logs/build-0/wronski-poly.ipynb.log
-  start: 2020-06-12 06:58
-  success: false
-  exitcode: 1
-  status: failure
-  duration: 1
+  log: http://localhost:8088/job/oscar/9809/artifact/logs/build-9809/wronski-poly.ipynb.log
+  start: 2020-06-12 06:03
+  success: true
+  exitcode: 0
+  status: success
+  duration: 230
   last_success: false
   last_success_url: 
   first_failure: false
   first_failure_url: 
 - name: Tropicalization.ipynb
   id: tropicalization-ipynb
-  log: http://localhost:8088/job/oscar/artifact/logs/build-0/Tropicalization.ipynb.log
-  start: 2020-06-12 06:58
-  success: false
-  exitcode: 1
-  status: failure
-  duration: 1
+  log: http://localhost:8088/job/oscar/9809/artifact/logs/build-9809/Tropicalization.ipynb.log
+  start: 2020-06-12 06:07
+  success: true
+  exitcode: 0
+  status: success
+  duration: 74
   last_success: false
   last_success_url: 
   first_failure: false
   first_failure_url: 
 - name: uMPS(2,2,4)_0dim.ipynb
   id: umps-2-2-4-0dim-ipynb
-  log: http://localhost:8088/job/oscar/artifact/logs/build-0/uMPS-2-2-4-_0dim.ipynb.log
-  start: 2020-06-12 06:58
-  success: false
-  exitcode: 1
-  status: failure
-  duration: 1
+  log: http://localhost:8088/job/oscar/9809/artifact/logs/build-9809/uMPS-2-2-4-_0dim.ipynb.log
+  start: 2020-06-12 06:08
+  success: true
+  exitcode: 0
+  status: success
+  duration: 84
   last_success: false
   last_success_url: 
   first_failure: false
   first_failure_url: 
 - name: GITFans.ipynb
   id: gitfans-ipynb
-  log: http://localhost:8088/job/oscar/artifact/logs/build-0/GITFans.ipynb.log
-  start: 2020-06-12 06:58
-  success: false
-  exitcode: 1
-  status: failure
-  duration: 1
+  log: http://localhost:8088/job/oscar/9809/artifact/logs/build-9809/GITFans.ipynb.log
+  start: 2020-06-12 06:09
+  success: true
+  exitcode: 0
+  status: success
+  duration: 146
   last_success: false
   last_success_url: 
   first_failure: false
   first_failure_url: 
 - name: GroebnerBasis.ipynb
   id: groebnerbasis-ipynb
-  log: http://localhost:8088/job/oscar/artifact/logs/build-0/GroebnerBasis.ipynb.log
-  start: 2020-06-12 06:58
-  success: false
-  exitcode: 1
-  status: failure
-  duration: 1
+  log: http://localhost:8088/job/oscar/9809/artifact/logs/build-9809/GroebnerBasis.ipynb.log
+  start: 2020-06-12 06:12
+  success: true
+  exitcode: 0
+  status: success
+  duration: 51
   last_success: false
   last_success_url: 
   first_failure: false
